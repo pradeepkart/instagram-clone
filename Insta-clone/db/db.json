@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "userId": 101,
+      "username": "arun_dev",
+      "profilePic": "https://i.pravatar.cc/150?img=3",
+      "imageUrl": "https://picsum.photos/id/237/600/600",
+      "caption": "Weekend vibes ☀️ #chill",
+      "likes": 120,
+      "isLiked": false,
+      "comments": [
+        { "id": 1, "username": "meena_kr", "text": "Nice shot 🔥" },
+        { "id": 2, "username": "jagan_04", "text": "Super bro!" }
+      ],
+      "createdAt": "2025-11-06T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 102,
+      "username": "meena_kr",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "imageUrl": "https://picsum.photos/id/1015/600/600",
+      "caption": "Sunset goals 🌅",
+      "likes": 89,
+      "isLiked": true,
+      "comments": [
+        { "id": 1, "username": "arun_dev", "text": "Beautiful pic!" },
+        { "id": 2, "username": "naveen.codes", "text": "Wow 🔥🔥" }
+      ],
+      "createdAt": "2025-11-05T17:45:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 103,
+      "username": "naveen.codes",
+      "profilePic": "https://i.pravatar.cc/150?img=8",
+      "imageUrl": "https://picsum.photos/id/1025/600/600",
+      "caption": "Coding + Coffee = ❤️",
+      "likes": 200,
+      "isLiked": false,
+      "comments": [
+        { "id": 1, "username": "arun_dev", "text": "Mood 😎" },
+        { "id": 2, "username": "meena_kr", "text": "Relatable 😂" }
+      ],
+      "createdAt": "2025-11-04T21:10:00Z"
+    }
+  ]
+}
