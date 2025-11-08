@@ -25,11 +25,11 @@ function Posts() {
                     <img className='post' src= {post.imageUrl} alt="post" />
                     <div className='icons'>
                     <i className="bi bi-heart"></i>
-                    <i class="bi bi-chat"></i>
-                    <i class="bi bi-send"></i>
+                    <i className="bi bi-chat"></i>
+                    <i className="bi bi-send"></i>
                     </div>
                     <div>
-                        <h7><b>{post.likes} Likes</b></h7>
+                        <h6><b>{post.likes} Likes</b></h6>
                     </div>
                     <p>{post.caption}</p>
                 </div>

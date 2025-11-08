@@ -1,8 +1,64 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Suggestions() {
+ 
+ const [profile,setprofile] = useState([null]);
+ const [Suggestions,setSuggestions]=useState([]);
+
+
+ useEffect(()=>{
+  fetch("http://localhost:3000/profile").
+  then((data)=>data.json()).
+  then((data)=>{setprofile(data)}).
+  catch((err)=>{console.log(err)})
+
+
+  fetch("http://localhost:3000/Suggestions").
+  then((data)=>data.json()).
+  then((data)=>{setSuggestions(data)}).
+  catch((err)=>{console.log(err)})
+
+ },[])
+ 
   return (
-    <div>Suggestions</div>
+    
+  <div>
+    <div className='suggestions w-75 m-4'>
+    {
+      profile ?
+    <div className='d-flex gap-2 my-3'>
+    <img className='dp rounded-circle' src={profile.profilePic} alt="profile_pic" />
+     <h6>{profile.username}</h6>
+     <p className='ms-auto text-primary'>Switch</p>
+   </div>
+   :
+   <p>Loading...</p>}
+   <div className='d-flex '>
+    <p>Suggested for you</p>
+    <b className='ms-auto'>see all</b>
+   </div>
+
+   {Suggestions.length > 0 ? (
+        <div>
+            {Suggestions.map((Suggestion)=>(
+                <div key={Suggestion.id}>
+                    <div className='d-flex gap-2 my-2'>
+                        <img className='dp rounded-circle' src={Suggestion.profilePic} alt="profile_pic" />
+                         <h6>{Suggestion.username}</h6>
+                         <p className='text-primary ms-auto'>Follow</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+       ):(
+        <div>
+            loading...
+        </div>
+       )}
+
+</div>
+
+</div>
   )
 }
 
