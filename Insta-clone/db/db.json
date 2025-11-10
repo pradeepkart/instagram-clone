@@ -46,7 +46,6 @@
       "createdAt": "2025-11-04T21:10:00Z"
     }
   ],
-
   "profile":[
   {
     "id": 1,
@@ -55,7 +54,6 @@
     "profilePic": "https://i.pravatar.cc/150?img=3"
   }
   ],
-
   "Suggestions":[
     {
       "id": 1,
@@ -89,5 +87,28 @@
         "profilePic": "https://i.pravatar.cc/150?img=5"
     }
 
+  ],
+  "story": [
+    {
+      "id": 1,
+      "userId": 101,
+      "username": "arun_dev",
+      "profilePic": "https://i.pravatar.cc/150?img=3",
+      "imageUrl": "https://picsum.photos/id/237/600/600"
+    },
+    {
+      "id": 2,
+      "userId": 102,
+      "username": "meena_kr",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "imageUrl": "https://picsum.photos/id/1015/600/600"
+    },
+    {
+      "id": 3,
+      "userId": 103,
+      "username": "naveen.codes",
+      "profilePic": "https://i.pravatar.cc/150?img=8",
+      "imageUrl": "https://picsum.photos/id/1025/600/600"
+    }
   ]
 }
