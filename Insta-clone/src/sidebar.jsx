@@ -3,7 +3,7 @@ import instatext from '../src/assets/OIP.png';
 
 function Sidebar() {
   return (
-    <div className='m-3 position-fixed'>
+    <div className='m-3 position-fixed '>
     <div className='d-flex flex-column gap-3'>
         <img className='logo-text' src={instatext} alt="Insta Text" />
         <div><i className="bi bi-house-heart-fill"></i>Home</div>
