@@ -2,7 +2,7 @@ import React from 'react'
 
 function viewStory() {
   return (
-    <div>viewStory</div>
+    <div>viewStoory</div>
   )
 }
 
