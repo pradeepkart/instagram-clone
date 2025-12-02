@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import App from "./App";
 import ViewStory from "./viewStory";
+import Profile from "./Profile";
 
 
 const router = createBrowserRouter(
@@ -16,6 +17,10 @@ const router = createBrowserRouter(
     {
       path:'/story/:id/:totalid',
       element:<ViewStory/>
+    },
+    {
+      path:'/Profile',
+      element:<Profile/>
     }
 
   ]

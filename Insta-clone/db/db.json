@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 101,
       "username": "arun_dev",
       "profilePic": "https://i.pravatar.cc/150?img=3",
@@ -10,13 +10,21 @@
       "likes": 120,
       "isLiked": false,
       "comments": [
-        { "id": 1, "username": "meena_kr", "text": "Nice shot 🔥" },
-        { "id": 2, "username": "jagan_04", "text": "Super bro!" }
+        {
+          "id": 1,
+          "username": "meena_kr",
+          "text": "Nice shot 🔥"
+        },
+        {
+          "id": 2,
+          "username": "jagan_04",
+          "text": "Super bro!"
+        }
       ],
       "createdAt": "2025-11-06T08:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 102,
       "username": "meena_kr",
       "profilePic": "https://i.pravatar.cc/150?img=5",
@@ -25,13 +33,21 @@
       "likes": 89,
       "isLiked": true,
       "comments": [
-        { "id": 1, "username": "arun_dev", "text": "Beautiful pic!" },
-        { "id": 2, "username": "naveen.codes", "text": "Wow 🔥🔥" }
+        {
+          "id": 1,
+          "username": "arun_dev",
+          "text": "Beautiful pic!"
+        },
+        {
+          "id": 2,
+          "username": "naveen.codes",
+          "text": "Wow 🔥🔥"
+        }
       ],
       "createdAt": "2025-11-05T17:45:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "userId": 103,
       "username": "naveen.codes",
       "profilePic": "https://i.pravatar.cc/150?img=8",
@@ -40,71 +56,101 @@
       "likes": 200,
       "isLiked": false,
       "comments": [
-        { "id": 1, "username": "arun_dev", "text": "Mood 😎" },
-        { "id": 2, "username": "meena_kr", "text": "Relatable 😂" }
+        {
+          "id": 1,
+          "username": "arun_dev",
+          "text": "Mood 😎"
+        },
+        {
+          "id": 2,
+          "username": "meena_kr",
+          "text": "Relatable 😂"
+        }
       ],
       "createdAt": "2025-11-04T21:10:00Z"
     }
   ],
-  "profile":[
-  {
-    "id": 1,
-    "userId": 101,
-    "username": "arun_dev",
-    "profilePic": "https://i.pravatar.cc/150?img=8"
-  }
-  ],
-  "Suggestions":[
+  "profile": [
     {
-      "id": 1,
+      "id": "1",
+      "userId": 101,
+      "username": "arun_devvv",
+      "profilePic": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "1",
+      "userId": 101,
+      "username": "arun_devvv",
+      "profilePic": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "1",
+      "userId": 101,
+      "username": "arun_devvv",
+      "profilePic": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "1",
+      "userId": 101,
+      "username": "arun_devvv",
+      "profilePic": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "1",
+      "userId": 101,
+      "username": "arun_devvv",
+      "profilePic": "https://i.pravatar.cc/150?img=3"
+    }
+  ],
+  "Suggestions": [
+    {
+      "id": "1",
       "userId": 101,
       "username": "arun_dev",
       "profilePic": "https://i.pravatar.cc/150?img=3"
-    
     },
     {
-      "id": 2,
-        "userId": 102,
-        "username": "meena_kr",
-        "profilePic": "https://i.pravatar.cc/150?img=5"
+      "id": "2",
+      "userId": 102,
+      "username": "meena_kr",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
     },
     {
-      "id": 3,
-         "userId": 103,
-         "username": "naveen.codes",
-         "profilePic": "https://i.pravatar.cc/150?img=8" 
-     },
-     {
-      "id": 4,
-        "userId": 104,
-        "username": "meena_kp",
-        "profilePic": "https://i.pravatar.cc/150?img=5"
+      "id": "3",
+      "userId": 103,
+      "username": "naveen.codes",
+      "profilePic": "https://i.pravatar.cc/150?img=8"
     },
     {
-      "id": 5,
-        "userId": 105,
-        "username": "meena_xo",
-        "profilePic": "https://i.pravatar.cc/150?img=5"
+      "id": "4",
+      "userId": 104,
+      "username": "meena_kp",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "5",
+      "userId": 105,
+      "username": "meena_xo",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
     }
-
   ],
   "story": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 101,
       "username": "arun_dev",
       "profilePic": "https://i.pravatar.cc/150?img=3",
       "imageUrl": "https://picsum.photos/id/237/600/600"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 102,
       "username": "meena_kr",
       "profilePic": "https://i.pravatar.cc/150?img=5",
       "imageUrl": "https://picsum.photos/id/1015/600/600"
     },
     {
-      "id": 3,
+      "id": "3",
       "userId": 103,
       "username": "naveen.codes",
       "profilePic": "https://i.pravatar.cc/150?img=8",

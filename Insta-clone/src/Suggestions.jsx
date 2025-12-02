@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react'
 
 function Suggestions() {
  
- const [profile,setprofile] = useState([null]);
+ const [profile,setprofile] = useState([]);
  const [Suggestions,setSuggestions]=useState([]);
 
 
  useEffect(()=>{
   fetch("http://localhost:3000/profile").
   then((data)=>data.json()).
-  then((data)=>{setprofile(data)}).
+  then((data)=>{setprofile(data[0])}).
   catch((err)=>{console.log(err)})
 
 

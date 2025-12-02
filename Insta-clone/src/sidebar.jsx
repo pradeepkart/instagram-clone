@@ -1,7 +1,10 @@
 import React from 'react';
 import instatext from '../src/assets/OIP.png';
+import { useNavigate } from 'react-router';
 
 function Sidebar() {
+
+  const navigate = useNavigate();
   return (
     <div className='m-3 position-fixed '>
     <div className='d-flex flex-column gap-3'>
@@ -13,7 +16,7 @@ function Sidebar() {
         <div><i className="bi bi-send"></i>Messages</div>
         <div><i className="bi bi-heart"></i>Notification</div>
         <div><i className="bi bi-plus-square"></i>Create</div>
-        <div><i className="bi bi-person-circle"></i>Profile</div>
+        <div onClick={()=>{navigate('/Profile')}}><i className="bi bi-person-circle"></i>Profile</div>
         </div>
         <div className='position-fixed bottom-0 d-flex flex-column gap-3 mb-3'>
             <div><i className="bi bi-threads"></i>Threads</div>
