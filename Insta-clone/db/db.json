@@ -156,5 +156,29 @@
       "profilePic": "https://i.pravatar.cc/150?img=8",
       "imageUrl": "https://picsum.photos/id/1025/600/600"
     }
+  ],
+  "followers": [
+    {
+      "id": "3",
+      "userId": 103,
+      "username": "naveen.codes",
+      "profilePic": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": "2",
+      "username": "meena_kr"
+    },
+    {
+      "id": "1",
+      "username": "arun_dev"
+    },
+    {
+      "id": "1",
+      "username": "arun_dev"
+    },
+    {
+      "id": "2",
+      "username": "meena_kr"
+    }
   ]
 }
